@@ -1,0 +1,22 @@
+{
+  "name": "neodevs-front",
+  "description": "Webcomponent neodevs-front following open-wc recommendations",
+  "license": "MIT",
+  "author": "neodevs-front",
+  "version": "0.0.0",
+  "scripts": {
+    "analyze": "cem analyze --litelement",
+    "start": "web-dev-server",
+    "serve": "web-dev-server --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "lit": "^2.0.2",
+    "lit-element-router": "^2.0.3",
+    "polymer-serve": "^0.0.38"
+  },
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.4.17",
+    "@web/dev-server": "^0.1.34"
+  },
+  "customElements": "custom-elements.json"
+}
